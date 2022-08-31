@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    width: 650px;
+    height: 100vh ;
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 72px;
+    text-align: center;
+    margin-top: 50px;
+    color: #043133;
+}
+
+.form > input, label {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25em;
+    line-height: 30px;
+    margin-bottom: 4px;
+}
+
+input {
+    width: 600px;
+    height: 65px;
+    border: none;
+    background-color: #eff0f2;
+    padding-left: 29px;
+}
+
+.form-item > input::placeholder {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4em;
+    line-height: 30px;
+    color: #838383;
+}
+
+.form-item {
+    margin-left: 91px;
+    margin-right: 91px;
+    margin-top: 36px;
+}
+
+.btn {
+    width: 300px;
+    height: 60px;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.create-account {
+    background-color: #007074;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6em;
+    line-height: 39px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.events-container > p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 27px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+
+}
+
+.login {
+    color: #007074;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.events-container > label {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    color:#043133;
+    margin-top: 34px;
+    align-items: center;
+}
+
+.btn > img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 6px;
+}
+
+.btn > span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 24px;
+    color: #043133;
+    float: left;
+    padding: 12px;
+}
